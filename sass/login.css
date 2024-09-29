@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url("img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  letter-spacing: 0.1;
+  padding: 100px;
+}
+
+form {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  letter-spacing: 0.2rem;
+  border: 1px solid black;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  border-bottom: 4px solid white;
+  margin: 30px;
+}
+
+.btn {
+  color: white;
+  background-color: blue;
+  border-radius: 15px;
+  width: 250px;
+  height: 35px;
+  margin: 10px;
+  font-size: 15px;
+}
+.btn:hover {
+  background-color: brown;
+}
+
+.btn--secondary {
+  background-color: white;
+  color: black;
+}
+.btn--secondary:hover {
+  background-color: red;
+}
+
+.name {
+  font-size: 20px;
+  color: white;
+}
+
+.box {
+  font-size: 15px;
+  border-radius: 7px;
+  text-align: justify;
+  height: 35px;
+  width: 300px;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+}/*# sourceMappingURL=loginwithscss.css.map */

@@ -1,0 +1,8 @@
+@mixin common($para) //mixing + arguments
+{
+    align-items:center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: $para;
+}
